@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+	margin: 0;
+	font-family: "roboto slab", serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.jumbotron {
+	background-image: url("./assets/is.jpg");
+	background-size: cover;
+	height: 350px;
+}
+.btn-primary {
+	background-color: purple;
+	border-radius: 10px;
+	box-shadow: 0px 2px 2px black !important;
+}
+.footer {
+	line-height: 50px;
+	margin-bottom: 0px;
 }
